@@ -7,6 +7,8 @@ index.html code refactored:
 4) JS code moved to separate file
 5) corrected styles
 
+Corrected version you can see it here: [refactored code](https://sokolovdp.github.io)
+
 # Project Goals
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
