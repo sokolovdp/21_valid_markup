@@ -1,13 +1,20 @@
 # Site of Real Estate Agency
 
-index.html code refactored:
-1) added DOCTYPE
-2) local libs changed to minified externals (CSS - up, JS - down)
-3) corrected mistakes
-4) JS code moved to separate file
-5) corrected styles
-
-Corrected version you can see it here: [refactored code](https://sokolovdp.github.io)
+**index.html** code was refactored in the following way:
+```
+ 1) added <!DOCTYPE html> tag
+ 2) local libs changed to minified versions 
+ 3) all styles moved to header, all JS moved to body bottom
+ 4) all standard libs loaded from external sources
+ 5) corrected html syntax mistakes
+ 6) all JS code moved to JS file
+ 7) all Styles moved to CSS file
+ 8) corrected styles
+ 9) excluded unused fonts and sizes
+10) resized big images
+11) all content now loaded securely from https
+```
+Refactored version you can see [here](https://sokolovdp.github.io)
 
 # Project Goals
 

@@ -6,14 +6,30 @@
 
 /* Global Styles */
 
-html,
-body {
+html, body {
     width: 100%;
     height: 100%;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
-body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+.company-title {
+    margin: 0; 
+    padding: 0; 
+    font-size: 4.5em; 
+    font-weight: 700;
+}
+
+.company-profile {
+    margin-top: 20; 
+    margin-bottom: 10;
+    font-weight: 400; 
+    font-size: 24;
+}
+
+.company-office {
+    font-size: 30; 
+    margin-top: 40; 
+    margin-bottom: 20;
 }
 
 .text-vertical-center {
@@ -23,7 +39,6 @@ body {
 }
 
 /* Custom Button Styles */
-
 .btn-dark {
     border-radius: 0;
     color: #fff;
@@ -51,13 +66,11 @@ body {
 }
 
 /* Custom Horizontal Rule */
-
 hr.small {
     max-width: 100px;
 }
 
 /* Side Menu */
-
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
@@ -67,6 +80,16 @@ hr.small {
     margin-right: -250px;
     overflow-y: auto;
     background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -125,16 +148,6 @@ hr.small {
     position: fixed;
     top: 0;
     right: 0;
-}
-
-#sidebar-wrapper.active {
-    right: 250px;
-    width: 250px;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
 }
 
 .toggle {
@@ -202,7 +215,7 @@ hr.small {
     margin: 10px;
 }
 
-#map {
+img, #map {
     width: 600px;
     height: 400px;
     margin: 0 auto;
@@ -213,7 +226,6 @@ hr.small {
         height: 75%;
     }
 }
-
  
 #footer {
     padding: 20px 0;
