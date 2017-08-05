@@ -10,7 +10,7 @@
  6) all JS code moved to JS file
  7) all Styles moved to CSS file
  8) corrected styles
- 9) excluded unused fonts and sizes
+ 9) excluded unused fonts and sizes, added cyrillic
 10) resized big images
 11) all content now loaded securely from https
 ```
