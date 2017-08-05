@@ -13,6 +13,7 @@
  9) excluded unused fonts and sizes, added cyrillic
 10) resized big images
 11) all content now loaded securely from https
+12) content declared as cashable
 ```
 Refactored version you can see [here](https://sokolovdp.github.io)
 
